@@ -18,6 +18,11 @@ body{
    box-sizing: border-box;
 }
 
+img{
+	width: 100%;
+	min-width: 100%;
+}
+
 ul, li{
     padding: 0 !important;
     margin: 0 !important;
@@ -208,5 +213,75 @@ header ul li a {
 	text-transform: uppercase;
 }
 
+/************************************/
 
+/* About us */
 
+.about-us{
+	height: 100%;
+}
+
+.inner__about-us{
+	height: 100%;
+	display: flex;
+	align-items: center;	
+}
+
+/********************/
+
+/*Elaboracion*/
+
+.elaboracion{
+	height: 100%;
+}
+
+.inner__elaboracion{
+	height: 100%;
+	display: flex;
+	align-items: center;	
+}
+
+.inner__text--elaboracion{
+	text-align: right;
+}
+
+/*---------------*/
+
+/*Medios*/
+
+.medios{
+	height: 100%;
+	background: #17191b;
+}
+
+.inner__medios{
+	padding: 4em;
+}
+
+.inner__content{
+	background: whitesmoke;
+	padding: 5em;
+	text-align: center;
+	
+}
+
+/*----------------*/
+
+/*Chose us*/
+.inner__choseUs{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	padding: 4em;
+}
+
+.boxContent i {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+/*--------------*/
