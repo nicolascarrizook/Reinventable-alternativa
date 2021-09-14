@@ -1,32 +1,177 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CDN Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilos.css">
     <title>Reinventable</title>
+    <script src="https://kit.fontawesome.com/0abf0ec85b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="hero container-fluid">
-        <header class="container header__top">
-            <div class="header__menu">
-                <div class="header__logo">
-                    <a href="#">Logo</a>
-                </div>
-                <div class="header__nav">
-                    <ul>
-                        <li class="nav__element"><a href="#Home" class="nav__item">Home</a></li>
-                        <li class="nav__element"><a href="#About" class="nav__item">About us</a></li>
-                        <li class="nav__element"><a href="#Productos" class="nav__item">Productos</a></li>
-                        <li class="nav__element"><a href="#Contacto" class="nav__item">Contacto</a></li>
-                    </ul>
+    <header>
+        <a href="#" class="logo">LOGO</a>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="imgBx">
+            <img src="assets/images/bg1.jpg" alt="" class="active">
+            <img src="assets/images/bg2.jpg" alt="" >
+            <img src="assets/images/bg3.jpg" alt="">
+        </div>
+        <div class="contentBx">
+            <div class="active">
+                <h2>Lamparas personalizadas</h2>
+                <p>Diseñamos tu lampara totalmente personalizada</p>
+                <a href="#">Conocé más</a>
+            </div>
+            <div>
+                <h2>Envios</h2>
+                <p>Contamos con envios a todo Colombia</p>
+                <a href="#">Conocé más</a>
+            </div>
+            <div>
+                <h2>Planetas</h2>
+                <p>Diseñamos tu lampara totalmente personalizada</p>
+                <a href="#">Conocé más</a>
+            </div>
+        </div>
+
+        <ul class="controls">
+            <li id="prev"></li>
+            <li id="next"></li>
+        </ul>
+    </section>
+
+    <!--Section About us-->
+    <section class="about-us container">
+        <div class="inner__about-us">
+            <div class="left__side">
+                <img src="" alt="Imagen about us">
+            </div>
+            <div class="right__side">
+                <div class="inner__text">
+                    <h1>Sobre nosotros</h1>
+                    <p>Debido a la pandemia del Coronavirus, nos vimos en la necesidad de “reinventarnos”, es por eso
+                        que pensamos en un producto que sea innovador, basándonos en nuestras habilidades y
+                        conocimientos. Investigando sobre litofanía con impresoras 3D (proyección de luz a través de una
+                        lámina), se nos ocurrió hacer lámparas personalizadas con imágenes impresas y tomamos como un
+                        desafío personal que fueran creadas con la mejor definición posible. Para ésto, utilizamos una
+                        impresora CNC que nos permite mejorar la calidad de la foto comparada con el resultado de una
+                        impresora 3D.</p>
                 </div>
             </div>
-        </header>
-    </div>
+        </div>
+    </section>
+    <!--End about us-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!--Section elaboracion-->
+    <section class="elaboracion container">
+        <div class="inner__elaboracion">
+            <div class="left__sideElaboracion">
+                <div class="inner__text">
+                    <h1>Elaboración</h1>
+                    <p>Todas nuestras lámparas son realizada artesanalmente
+                        por un Ingeniero electrónico.
+                        Los modelos son hechos por una impresora 3D que
+                        utiliza láminas de plástico para imprimir los modelos y la
+                        base de madera se realiza en la máquina CNC (control
+                        numérico centralizado) que luego se lija y se recubre con
+                        cera de piso.
+                        En el caso de los portarretratos, realizamos el relieve con
+                        una máquina CNC que tiene un taladro para afinar los
+                        detalles.
+                        Utilizamos focos de luz led con la mejor calidad.</p>
+                    <button>Ver video</button>
+                </div>
+            </div>
+            <div class="right__sideElaboracion">
+                <img src="" alt="Imagen elaboracion">
+            </div>
+        </div>
+    </section>
+    <!--End elaboracion-->
+
+    <!--Medios de pago-->
+    <section class="medios container">
+        <div class="inner__medios">
+            <div class="topPosition">
+                <div class="innerTextTop">
+                    <h1>Envios</h1>
+                    <p>Nuestro envíos son realizados por Interrapidisimo.
+                        Contamos con envíos a todo Colombia.
+                        El tiempo estipulado para cada entrega es de 1 a 3 días hábiles.</p>
+                </div>
+            </div>
+            <div class="bottomPosition">
+                <div class="innerTextBottom">
+                    <h1>Medios de pago</h1>
+                    <p>Pago transferencia bancaria. Bancolombia. Nequi. Daviplata.
+                        Los pagos se realizan por adelantado.
+                        Se puede separar desde 20mil pesos cualquier trabajo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End medios de pago-->
+
+    <!--Why chose us-->
+    <section class="choseUs container">
+        <div class="inner__choseUs">
+            <!--Caja 1-->
+            <div class="box">
+                <div class="boxContent">
+                    <i class="far fa-heart"></i>
+                    <h3>Calidez</h3>
+                    <hr>
+                    <p>Nos preocupamos por mantener un trato cálido y cordial en todo momento.
+                    </p>
+                </div>
+            </div>
+            <!---->
+            <!--Caja 2-->
+            <div class="box">
+                <div class="boxContent">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Seguridad</h3>
+                    <hr>
+                    <p>Nuestros testimonios previos garantizan gran seguridad y confianza para nuestros clientes.
+                    </p>
+                </div>
+            </div>
+            <!---->
+            <!--Caja 3-->
+            <div class="box">
+                <div class="boxContent">
+                    <i class="fas fa-headset"></i>
+                    <h3>Atención</h3>
+                    <hr>
+                    <p>Contamos con una permanente atención personalizada por parte de nuestro personal.
+                    </p>
+                </div>
+            </div>
+            <!---->
+
+        </div>
+    </section>
+    <!--end why chose us-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
