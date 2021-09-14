@@ -44,6 +44,14 @@ a{
     justify-content: space-between;
 }
 
+#navbar {
+	background-color:rgba(17, 17, 17, 0.623);
+	transition:all .5s ease-in-out;
+	}
+.scroll {
+background-color:transparent;
+}
+
 .logo{
     position: relative;
     color: #fff;
@@ -285,3 +293,50 @@ header ul li a {
 }
 
 /*--------------*/
+
+.footer	{
+	height: 100%;
+	background-color: #17191b;
+}
+
+.social__list{
+	display: flex;
+}
+
+.social__content{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.social__item{
+	margin-right: .5em;
+	color: whitesmoke;
+	transition: .5s all ease;
+	font-size: 1.5em;
+}
+
+.social__item:hover{
+	color: white;
+}
+
+.item__link{
+	color: whitesmoke;
+	transition: .5s all ease;
+}
+
+.item__link:hover{
+	color: white;
+}
+
+.boton__footer{
+	color: #111;
+	font-size: .8em;
+	display: inline-block;
+	padding: 7px 15px;
+	background: #fff;
+	margin-top: 10px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}

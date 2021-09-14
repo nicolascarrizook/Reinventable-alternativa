@@ -39,3 +39,18 @@ function anteriorSlideText(){
 	j = (j - 1 + slidesText.length) % slidesText.length;
 	slidesText[j].classList.add('active');
 }
+
+
+//navbar
+
+$(function() {
+	$(window).on("scroll", function() {
+	   if($(window).scrollTop() > 280) {
+		   //background on scroll
+		   $("#navbar").addClass("scroll");
+	   } else {
+		   //background at top
+		  $("#navbar").removeClass("scroll");
+	   }
+	 });
+   });
